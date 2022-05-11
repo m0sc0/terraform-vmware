@@ -4,7 +4,7 @@ terraform apply -var "user@vsphere.local" -var "vsphere_password=XXX." -var "vsp
 '''
 
 ### Main.tf
-sh ''
+sh '''
 [semperti@localhost Terraform]$ vi main.tf
   memory   =  8192
   guest_id = "other3xLinux64Guest"
